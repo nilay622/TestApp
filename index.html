@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to the </title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+	<header>
+		<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="courses.html">Courses</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</u1>
+			</nav>
+			<center><img src = "images/gcoea.jfif" height = "130px">
+			<h1>Government College of Engineering, Amravati</h1></center>
+		
+	</header>
+    <marquee id = "mar" class="boxed"><strong>NOTE:This website is only for 3rd year students</strong></marquee>
+	<section id="main" class="boxed">
+		<div class="login-form bordered">
+			<form action="/api/login" method="POST" id="loginForm" class="boxed">
+			<center><strong>This is the homepage of GCOEA</strong></center>
+			<br>
+			<center><strong>Login</strong></center>
+			</br>
+			<label for="username">Username :</label>
+			<input type="text" name="Username" id="username"><br/>
+
+			<label for="password">Password :</label>
+			<input type="Password" name="Password" id="password"><br/>
+			
+			<div id="checkb">
+				<input type="checkbox" name="Remember me" id="remember">
+				<label for="remember">Remember me</label><br/>
+			</div>
+			<div id="errorMsg">
+			</div>
+			<div id="but">
+				<input type="submit" name="loginbutton" value="Login">
+				<input type="reset" name="cancelbutton" value="Cancel ">
+			</div>
+			</form>
+			<div id="logoutSection" class="boxed">
+				<p>You are logged in.</p>
+				<button id="logoutButton">Logout</button>
+			</div>
+		</div>
+		<div id="results" class="boxed">
+			<button id="toggleButton">Hide</button>
+			<div id="resultList">
+				Here we will display all the courses
+			</div>
+		</div>
+		
+	</section>
+
+	<footer>
+		&copy; 2020 This website is designed by NilayTech Pvt. Ltd for more information visit https://www.nilayofficial.blogspot.com
+	</footer>
+	</div>	
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

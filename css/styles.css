@@ -1,0 +1,167 @@
+html, body
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	font-family: Times New Roman,Arial,Helvetic;
+	background-color: white;
+}
+
+.container
+{
+	width: 990px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 5px;
+}
+
+/*.bordered
+{
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}*/
+
+header, footer
+{
+	background-color: #f1f1f1;
+	border: 1px solid black;
+}
+
+footer
+{
+	padding: 10px;
+	border-radius: 5px;
+
+}
+
+header nav
+{
+	float: right,padding-bottom;
+}
+
+header nav li
+{
+	display: inline;
+	font-size: 14px;
+	padding-right: 10px; 
+}
+
+a
+{
+	color: #007FC0;
+}
+
+#main 
+{
+	min-height: 359px;
+	border: 1px solid #555;
+	border-radius: 5px;
+	color: #202020;
+	margin: 10px 0px;
+	padding: 15px;
+}
+
+#results
+{
+	width: 300px;
+	padding: 3px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #ccc;
+}
+
+.result
+{
+	margin: 5px;
+	border: 1px solid #999;
+}
+
+.title
+{
+	font-weight: bold;
+}
+
+#errorMsg
+{
+	color: #f00;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.login-form
+{
+	background-color: #fff;
+	width: 400px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0px;
+}
+
+.login-form label
+{
+	width: 120px;
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.login-form input[type=text], .login-form input[type=password]
+{
+	width: 150px;
+}
+
+.login-form input[type=submit], .login-form input[type=reset]
+{
+	background-color: #007FC0;
+	color: white;
+	border-radius: 10px;
+	padding: 3px;
+	margin-top: 5px;
+	width: 75px;
+}
+
+#mar
+{
+	background-color:black;
+    color:white;
+}
+
+#but
+{
+	padding-left: 5px;
+	padding-bottom: 10px;
+}
+
+#checkb
+{
+	padding-left: 5px;
+
+}
+
+#toggleButton , #logoutButton
+{
+	background-color: #007FC0;
+	color: white;
+	border-radius: 10px;
+	padding: 3px;
+	margin-top: 5px;
+	width: 75px;
+}
+
+.login-form input[type=reset]
+{
+	background-color: gray;
+}
+
+#logoutSection
+{
+	display: none;
+}
+
+.boxed
+{
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24),0 0 4px 0 rgba(0,0,0,0.14);
+}
