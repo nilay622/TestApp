@@ -8,7 +8,7 @@ app.listen(port);
 
 console.log('Server started at ' + port);
 
-app.post('/api/login', function (req , res) {
+app.get('/api/login', function (req , res) {
 	var results = [
 	{
 		title : "Java",
